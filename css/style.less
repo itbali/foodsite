@@ -1,0 +1,107 @@
+.container {
+    width: 1230px;
+    position: relative;
+    margin: 0 auto;
+    font-family: Rubik;
+    box-sizing: border-box;
+}
+.header {
+    padding-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 39px;
+        letter-spacing: 0.05em;
+        b {
+            color: #ff6838;
+            font-weight: normal;
+        }
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .menu_link {
+            padding-right: 60px;
+            a {
+                text-decoration: none;
+                font-family: Rubik;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                color: black;
+                &:hover {
+                    color: #ff6838;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .product {
+            display: flex;
+            & > div {
+                padding-right: 60px;
+            }
+        }
+    }
+}
+.local_button {
+    padding: 14px 28px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    background: #ff7a50;
+    box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 5px;
+    border: 0;
+}
+
+.hero {
+    .section {
+        padding-top: 100px;
+    }
+    .sec1 {
+        display: flex;
+        .lblock {
+            h1 {
+                font-weight: 500;
+                font-size: 66px;
+                line-height: 78px;
+                text-transform: capitalize;
+
+                b {
+                    color: #ff6838;
+                }
+            }
+            span {
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 30px;
+                text-transform: capitalize;
+            }
+
+            .explore {
+                padding-top: 45px;
+                font-size: 20px;
+                line-height: 24px;
+                a {
+                    padding-left: 30px;
+                    color: black;
+                }
+            }
+        }
+
+        .rblock {
+            img {
+                max-height: 680px;
+            }
+        }
+    }
+}
