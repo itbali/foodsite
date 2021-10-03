@@ -1,3 +1,8 @@
+body {
+    background-color: #e5e5e5;
+    color: #363853;
+}
+
 .container {
     width: 1270px;
     position: relative;
@@ -8,6 +13,7 @@
 }
 .header {
     padding-top: 55px;
+    padding-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,7 +91,7 @@
 
 .hero {
     .section {
-        padding-top: 100px;
+        // padding-top: 100px;
     }
     .sec1 {
         display: flex;
@@ -144,6 +150,209 @@
                 position: absolute;
                 top: 10px;
                 left: 230px;
+            }
+        }
+    }
+}
+
+.sec2 {
+    .sec2-title h2 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 45px;
+        b {
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+            color: #ff6838;
+        }
+    }
+    .sec2-tabs {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin-bottom: 38px;
+        .tabs-item {
+            background: white;
+            list-style: none;
+            font-size: 20px;
+            line-height: 24px;
+            width: 210px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+            border-radius: 8px;
+            justify-content: center;
+            svg {
+                padding: 0 9px;
+            }
+        }
+        .tabs-item:hover,
+        .tabs-item:active,
+        .tabs-item.active {
+            cursor: pointer;
+            background: #ff7a50;
+            color: white;
+            svg {
+                path {
+                    fill: white;
+                }
+            }
+        }
+    }
+    .swiper-slider {
+        .swipper-wrapper {
+            display: flex;
+            justify-content: space-around;
+
+            .swiper-slide {
+                width: 210px;
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+                background: #ffffff;
+                border-radius: 12px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .food {
+                    margin-bottom: -10px;
+                }
+                .stars {
+                    margin-top: auto;
+                    margin-bottom: 28px;
+                }
+                .food_name {
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 18px;
+                    padding: 0 5px;
+                    margin: 10px 0;
+                }
+                .cost {
+                    margin: 10px 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 18px;
+                }
+
+                .addToCart {
+                    font-size: 15px;
+                    line-height: 18px;
+                    background: #ff7a50;
+                    border-radius: 2px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    padding: 8px 13px;
+                    margin-bottom: 22px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.sec3 {
+    display: flex;
+    align-items: center;
+    .lblock {
+    }
+    .rblock {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 137px;
+        .title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 50px;
+            text-transform: capitalize;
+            b {
+                font-weight: 500;
+                color: #ff7a50;
+            }
+        }
+        .t1 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 30px;
+            opacity: 0.9;
+        }
+        .usp {
+            padding-top: 20px;
+            .usp_item {
+                display: flex;
+                span {
+                    margin-left: 25px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 30px;
+                    /* identical to box height, or 125% */
+
+                    text-transform: capitalize;
+                }
+            }
+        }
+        .seeMore {
+            background: #ff7a50;
+            box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+            border-radius: 30px 30px 1px 30px;
+            margin-top: 50px;
+            padding: 17px 44px;
+            span {
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 24px;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.sec4 {
+    .title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 30px;
+        /* identical to box height, or 83% */
+
+        text-transform: capitalize;
+        b {
+            font-weight: 500;
+            color: #ff6838;
+        }
+    }
+    .food_wrapper {
+        .item {
+            width: fit-content;
+            background: #ffffff;
+            border-radius: 53px 5px;
+            margin-right: 43px;
+            .item_title {
+                margin: 22px auto 14px 20px;
+            }
+            .time_wrapper {
+                display: flex;
+                align-items: center;
+                padding-bottom: 22px;
+                .icon {
+                    margin: 0 10px 0 21px;
+                }
+                .next {
+                    background: #ff7a50;
+                    box-shadow: 0px 5px 12px rgba(255, 104, 56, 0.19);
+                    border-radius: 20px 20px 0px 20px;
+                    padding: 2px 27.5px;
+                    margin-left: 30px;
+                }
             }
         }
     }

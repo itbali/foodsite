@@ -1,3 +1,7 @@
+body {
+  background-color: #e5e5e5;
+  color: #363853;
+}
 .container {
   width: 1270px;
   position: relative;
@@ -9,6 +13,7 @@
 }
 .header {
   padding-top: 55px;
+  padding-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,9 +100,6 @@
   border-radius: 5px;
   border: 0;
 }
-.hero .section {
-  padding-top: 100px;
-}
 .hero .sec1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,4 +156,237 @@
   position: absolute;
   top: 10px;
   left: 230px;
+}
+.sec2 .sec2-title h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 45px;
+}
+.sec2 .sec2-title h2 b {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ff6838;
+}
+.sec2 .sec2-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0;
+  margin-bottom: 38px;
+}
+.sec2 .sec2-tabs .tabs-item {
+  background: white;
+  list-style: none;
+  font-size: 20px;
+  line-height: 24px;
+  width: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sec2 .sec2-tabs .tabs-item svg {
+  padding: 0 9px;
+}
+.sec2 .sec2-tabs .tabs-item:hover,
+.sec2 .sec2-tabs .tabs-item:active,
+.sec2 .sec2-tabs .tabs-item.active {
+  cursor: pointer;
+  background: #ff7a50;
+  color: white;
+}
+.sec2 .sec2-tabs .tabs-item:hover svg path,
+.sec2 .sec2-tabs .tabs-item:active svg path,
+.sec2 .sec2-tabs .tabs-item.active svg path {
+  fill: white;
+}
+.sec2 .swiper-slider .swipper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.sec2 .swiper-slider .swipper-wrapper .swiper-slide {
+  width: 210px;
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sec2 .swiper-slider .swipper-wrapper .swiper-slide .food {
+  margin-bottom: -10px;
+}
+.sec2 .swiper-slider .swipper-wrapper .swiper-slide .stars {
+  margin-top: auto;
+  margin-bottom: 28px;
+}
+.sec2 .swiper-slider .swipper-wrapper .swiper-slide .food_name {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 0 5px;
+  margin: 10px 0;
+}
+.sec2 .swiper-slider .swipper-wrapper .swiper-slide .cost {
+  margin: 10px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+.sec2 .swiper-slider .swipper-wrapper .swiper-slide .addToCart {
+  font-size: 15px;
+  line-height: 18px;
+  background: #ff7a50;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding: 8px 13px;
+  margin-bottom: 22px;
+  cursor: pointer;
+}
+.sec3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sec3 .rblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 137px;
+}
+.sec3 .rblock .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 50px;
+  text-transform: capitalize;
+}
+.sec3 .rblock .title b {
+  font-weight: 500;
+  color: #ff7a50;
+}
+.sec3 .rblock .t1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.9;
+}
+.sec3 .rblock .usp {
+  padding-top: 20px;
+}
+.sec3 .rblock .usp .usp_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sec3 .rblock .usp .usp_item span {
+  margin-left: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  text-transform: capitalize;
+}
+.sec3 .rblock .seeMore {
+  background: #ff7a50;
+  -webkit-box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+          box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+  border-radius: 30px 30px 1px 30px;
+  margin-top: 50px;
+  padding: 17px 44px;
+}
+.sec3 .rblock .seeMore span {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.sec4 .title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 30px;
+  /* identical to box height, or 83% */
+  text-transform: capitalize;
+}
+.sec4 .title b {
+  font-weight: 500;
+  color: #ff6838;
+}
+.sec4 .food_wrapper .item {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #ffffff;
+  border-radius: 53px 5px;
+  margin-right: 43px;
+}
+.sec4 .food_wrapper .item .item_title {
+  margin: 22px auto 14px 20px;
+}
+.sec4 .food_wrapper .item .time_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 22px;
+}
+.sec4 .food_wrapper .item .time_wrapper .icon {
+  margin: 0 10px 0 21px;
+}
+.sec4 .food_wrapper .item .time_wrapper .next {
+  background: #ff7a50;
+  -webkit-box-shadow: 0px 5px 12px rgba(255, 104, 56, 0.19);
+          box-shadow: 0px 5px 12px rgba(255, 104, 56, 0.19);
+  border-radius: 20px 20px 0px 20px;
+  padding: 2px 27.5px;
+  margin-left: 30px;
 }
