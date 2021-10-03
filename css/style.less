@@ -1,7 +1,8 @@
 .container {
-    width: 1230px;
+    width: 1270px;
     position: relative;
     margin: 0 auto;
+    padding: 20px;
     font-family: Rubik;
     box-sizing: border-box;
 }
@@ -47,6 +48,25 @@
             display: flex;
             & > div {
                 padding-right: 60px;
+            }
+
+            .product_cart {
+                position: relative;
+                a.cart:after {
+                    width: 14px;
+                    height: 14px;
+                    text-align: center;
+                    margin: auto 0;
+                    content: "4";
+                    position: absolute;
+                    top: -4px;
+                    left: 14px;
+                    border-radius: 50%;
+                    background: #ff7a50;
+                    color: white;
+                    font-size: 10px;
+                    line-height: 16px;
+                }
             }
         }
     }
@@ -99,8 +119,31 @@
         }
 
         .rblock {
-            img {
+            position: relative;
+            .scooterGuy {
                 max-height: 680px;
+                z-index: 100;
+                position: relative;
+            }
+            .ic1 {
+                position: absolute;
+                top: 120px;
+                left: 110px;
+            }
+            .ic2 {
+                position: absolute;
+                top: 48px;
+                left: 501px;
+            }
+            .ic3 {
+                position: absolute;
+                top: 10px;
+                left: 545px;
+            }
+            .ic4 {
+                position: absolute;
+                top: 10px;
+                left: 230px;
             }
         }
     }

@@ -1,7 +1,8 @@
 .container {
-  width: 1230px;
+  width: 1270px;
   position: relative;
   margin: 0 auto;
+  padding: 20px;
   font-family: Rubik;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -64,6 +65,24 @@
 .header .menu .product > div {
   padding-right: 60px;
 }
+.header .menu .product .product_cart {
+  position: relative;
+}
+.header .menu .product .product_cart a.cart:after {
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  margin: auto 0;
+  content: "4";
+  position: absolute;
+  top: -4px;
+  left: 14px;
+  border-radius: 50%;
+  background: #ff7a50;
+  color: white;
+  font-size: 10px;
+  line-height: 16px;
+}
 .local_button {
   padding: 14px 28px;
   font-size: 18px;
@@ -108,6 +127,31 @@
   padding-left: 30px;
   color: black;
 }
-.hero .sec1 .rblock img {
+.hero .sec1 .rblock {
+  position: relative;
+}
+.hero .sec1 .rblock .scooterGuy {
   max-height: 680px;
+  z-index: 100;
+  position: relative;
+}
+.hero .sec1 .rblock .ic1 {
+  position: absolute;
+  top: 120px;
+  left: 110px;
+}
+.hero .sec1 .rblock .ic2 {
+  position: absolute;
+  top: 48px;
+  left: 501px;
+}
+.hero .sec1 .rblock .ic3 {
+  position: absolute;
+  top: 10px;
+  left: 545px;
+}
+.hero .sec1 .rblock .ic4 {
+  position: absolute;
+  top: 10px;
+  left: 230px;
 }
